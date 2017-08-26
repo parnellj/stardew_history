@@ -1,0 +1,8 @@
+SaveGame/locations/GameLocation xsi:type="FarmHouse"/furniture/Furniture[...]/
+	sourceRect/X (px)
+	sourceRect/Y (px)
+	
+SaveGame/locations/GameLocation xsi:type="Farm"/objects
+	/item/type (string) [equals name of tilesheet?]
+		"Crafting" -> "craftables"
+	/bigCraftable (boolean) [whether it takes up multiple 16x32 tiles?]
